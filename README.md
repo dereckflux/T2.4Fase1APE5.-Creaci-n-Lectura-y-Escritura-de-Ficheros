@@ -6,7 +6,7 @@
 
 # 🃏 INICIO DE LA GUIA APE 5 · LA BARAJA DE GAMBITO 🃏
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=3500&pause=1200&color=FF3EA5&background=0D1117&center=true&vCenter=true&width=900&height=70&lines=%E2%99%A0+T2.4+FASE+1+APE+5+%E2%99%A0;%E2%99%A5+UNIVERSIDAD+TECNICA+DE+AMBATO+%E2%99%A5;%E2%99%A6+CREAR%2C+ESCRIBIR+Y+ELIMINAR+FICHEROS+%E2%99%A6;%E2%99%A3+TRES+CARTAS%2C+UN+SOLO+LENGUAJE+%E2%99%A3" width="100%" alt="Texto animado de la guía APE 5">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=3500&pause=1200&color=FF3EA5&background=0D1117&center=true&vCenter=true&width=900&height=70&lines=%E2%99%A0+T2.4+FASE+1+APE+5+%E2%99%A0;%E2%99%A5+UNIVERSIDAD+TECNICA+DE+AMBATO+%E2%99%A5;%E2%99%A6+CREAR%2C+ESCRIBIR+Y+ELIMINAR+FICHEROS+%E2%99%A6;%E2%99%A3+DIEZ+CARTAS%2C+UN+SOLO+LENGUAJE+%E2%99%A3" width="100%" alt="Texto animado de la guía APE 5">
 
 </div>
 
@@ -31,10 +31,10 @@
 <br><br>
 
 **Bienvenido a la mesa de juego, mon ami.**<br>
-Este repositorio contiene la solución del tema **T2.4Fase1APE5. Creación, Lectura y Escritura de Ficheros**, el inicio de la guía APE 5.<br>
+Este repositorio contiene la solución del tema **T2.4Fase1APE5. Creación, Lectura y Escritura de Ficheros**, con los 10 ejercicios de este avance de la guía APE 5.<br>
 Aquí cada ejercicio es una carta cargada de energía cinética: se resuelve en **Java** y se comprueba con su prueba de escritorio.
 
-**Un jugador. Tres cartas. Cero errores de compilación.**
+**Un jugador. Diez cartas. Cero errores de compilación.**
 
 [🌃 Expediente](#expediente) ·
 [🃏 Jugador](#jugador) ·
@@ -51,20 +51,20 @@ Aquí cada ejercicio es una carta cargada de energía cinética: se resuelve en 
 
 ## 🌃 El expediente · ¿De qué trata este repositorio?
 
-Este repositorio reúne los tres ejercicios con los que inicia la guía APE 5. Con ellos se practican las operaciones básicas sobre ficheros de texto: **crear** un archivo, **escribir** información en él y **eliminarlo**.
+Este repositorio reúne los 10 ejercicios de este avance de la guía APE 5. Con ellos se practican las operaciones sobre ficheros de texto: **crear** archivos, **consultar** sus datos, **escribir** información con distintos modos de apertura y **eliminarlos** de forma controlada.
 
-Como en cualquier partida de Remy LeBeau, el orden de las cartas importa: el Ejercicio 2 escribe en `estudiantes.txt` y el Ejercicio 3 elimina ese mismo archivo.
+Como en cualquier partida de Remy LeBeau, el orden de las cartas importa: el Ejercicio 3 elimina el `estudiantes.txt` del Ejercicio 2, y el Ejercicio 9 continúa el `materias.txt` del Ejercicio 8.
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=900&pause=380&color=FF3EA5&background=0A0A0A&center=false&vCenter=false&width=560&height=161&multiline=true&lines=++%3E+BARAJANDO+EL+MAZO+DE+GAMBITO+...........+%5B+OK+%5D;++%3E+CARTA+1%3A+CREAR+curso.txt+................+%5B+OK+%5D;++%3E+CARTA+2%3A+ESCRIBIR+estudiantes.txt+.......+%5B+OK+%5D;++%3E+CARTA+3%3A+ELIMINAR+estudiantes.txt+.......+%5B+OK+%5D;++%3E+COMPILANDO+EN+JAVA+......................+%5B+OK+%5D;++%3E+MISION%3A+GUIA+APE+5+%C2%B7+EN+CURSO+%E2%96%88" alt="Terminal animada de la baraja">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=900&pause=380&color=FF3EA5&background=0A0A0A&center=false&vCenter=false&width=560&height=161&multiline=true&lines=++%3E+BARAJANDO+EL+MAZO+DE+GAMBITO+...........+%5B+OK+%5D;++%3E+CARTAS+1-3%3A+CREAR%2C+ESCRIBIR%2C+ELIMINAR+....+%5B+OK+%5D;++%3E+CARTAS+4-6%3A+REGISTROS+Y+VENTAS+...........+%5B+OK+%5D;++%3E+CARTAS+7-10%3A+RUTAS%2C+APPEND+Y+BORRADO+.....+%5B+OK+%5D;++%3E+COMPILANDO+EN+JAVA+......................+%5B+OK+%5D;++%3E+MISION%3A+GUIA+APE+5+%C2%B7+EN+CURSO+%E2%96%88" alt="Terminal animada de la baraja">
 </div>
 
 ### 🎯 Objetivos de la misión
 
-- **Crear ficheros**: generar `curso.txt` y comprobar si se creó o si ya existía.
-- **Escribir sin perder información**: agregar mensajes a `estudiantes.txt` conservando su contenido anterior.
-- **Eliminar ficheros**: borrar `estudiantes.txt` e informar si se logró o no.
-- **Comprobar cada programa**: ejecutar cada programa en Java y verificar su salida con pruebas de escritorio.
+- **Crear y consultar ficheros**: generar archivos, comprobar si existen y mostrar su nombre y su ruta.
+- **Escribir sin perder información**: usar `FileWriter` y `BufferedWriter` en modo normal y en modo append.
+- **Construir registros útiles**: guardar estudiantes, productos y ventas, con cálculos y datos validados.
+- **Eliminar con control**: borrar archivos e informar el resultado, incluso con una confirmación previa.
 
 > [!TIP]
 > **Lema de la mesa:** «Antes de lanzar la carta, revisa si el archivo existe».
@@ -78,12 +78,12 @@ Como en cualquier partida de Remy LeBeau, el orden de las cartas importa: el Eje
 Esta partida se juega en solitario. El único integrante se encarga de toda la baraja:
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2400&pause=1300&color=FF3EA5&background=0D1117&center=true&vCenter=true&width=860&height=52&lines=Jugador+unico+%E2%80%BA+Dereck+Paredes+%E2%80%BA+Ejercicios+1%2C+2+y+3" width="100%" alt="Integrante del repositorio">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2400&pause=1300&color=FF3EA5&background=0D1117&center=true&vCenter=true&width=860&height=52&lines=Jugador+unico+%E2%80%BA+Dereck+Paredes+%E2%80%BA+Ejercicios+del+1+al+10" width="100%" alt="Integrante del repositorio">
 </div>
 
 | N.º | Integrante | Rol en la mesa | Componentes |
 | :---: | :--- | :--- | :--- |
-| **1** | **Paredes Acosta Dereck Shair** | **As del Código Cajún · Analizar, programar y probar** | Ejercicios 1, 2 y 3 en **Java**, con sus informes. |
+| **1** | **Paredes Acosta Dereck Shair** | **As del Código Cajún · Analizar, programar y probar** | Ejercicios del 1 al 10 en **Java**, con sus informes. |
 
 | Dato | Detalle |
 | :--- | :--- |
@@ -96,54 +96,113 @@ Esta partida se juega en solitario. El único integrante se encarga de toda la b
 
 <a name="cartas"></a>
 
-## ♠️ Las cartas · Los tres ejercicios
+## ♠️ Las cartas · Los 10 ejercicios
 
 | Carta | Ejercicio | Archivo de texto | Clases y métodos en Java |
 | :---: | :--- | :--- | :--- |
 | ♠️ | **1. Crear un fichero** | `curso.txt` | `File`, `createNewFile()`, `getName()` |
 | ♥️ | **2. Escribir información en un fichero** | `estudiantes.txt` | `Scanner`, `FileWriter`, `write()`, `close()` |
 | ♦️ | **3. Eliminar un fichero** | `estudiantes.txt` | `File`, `delete()` |
+| ♣️ | **4. Registro de estudiantes y calificaciones** | `estudiantes.txt` | `Scanner`, `BufferedWriter`, `FileWriter`, `newLine()` |
+| ♠️ | **5. Registro de productos con modo append** | `productos.txt` | `BufferedWriter`, `FileWriter(nombre, true)` |
+| ♥️ | **6. Sistema de registro de ventas** | `ventas.txt` | `BufferedWriter`, `FileWriter(nombre, true)` |
+| ♦️ | **7. Exploración y gestión de metadatos con File** | `datos/prueba.txt` | `File`, `exists()`, `createNewFile()`, `getName()`, `getPath()` |
+| ♣️ | **8. Escritura estructurada por líneas con BufferedWriter** | `materias.txt` | `BufferedWriter`, `FileWriter`, `newLine()`, `close()` |
+| ♠️ | **9. Control del modo de apertura** | `materias.txt` | `FileWriter(nombre, true)`, `BufferedWriter` |
+| ♥️ | **10. Ciclo de vida completo y borrado seguro** | `datos/temporal.txt` | `File`, `exists()`, `createNewFile()`, `delete()` |
 
-### ♠️ Ejercicio 1 · Crear un fichero
+### 🃏 Primera mano · Crear, escribir y eliminar
 
-Crea el archivo de texto `curso.txt`, comprueba si se creó correctamente o si ya existe, muestra su nombre y controla los errores con `try-catch`.
+**♠️ Ejercicio 1 · Crear un fichero.** Crea `curso.txt`, indica si se creó o si ya existía, muestra su nombre y controla los errores con `try-catch`.
 
 ```text
 Archivo creado correctamente.
 Nombre del archivo: curso.txt
 ```
 
-Si se ejecuta otra vez, el archivo no se sobrescribe:
-
-```text
-El archivo ya existe.
-Nombre del archivo: curso.txt
-```
-
-### ♥️ Ejercicio 2 · Escribir información en un fichero
-
-Pide un mensaje por teclado y lo agrega al final de `estudiantes.txt`. El parámetro `true` de `FileWriter` conserva la información anterior.
+**♥️ Ejercicio 2 · Escribir información en un fichero.** Pide un mensaje por teclado y lo agrega al final de `estudiantes.txt`, conservando lo anterior gracias al parámetro `true` de `FileWriter`.
 
 ```text
 Ingrese un mensaje: Hola, soy estudiante de Software
 Mensaje guardado correctamente.
 ```
 
-> [!NOTE]
-> El archivo `estudiantes.txt` debe existir antes de ejecutar este ejercicio.
-
-### ♦️ Ejercicio 3 · Eliminar un fichero
-
-Intenta eliminar `estudiantes.txt` y muestra un mensaje según el resultado.
+**♦️ Ejercicio 3 · Eliminar un fichero.** Elimina `estudiantes.txt` y muestra un mensaje según el resultado.
 
 ```text
 Archivo eliminado correctamente.
 ```
 
-Si el archivo ya no existe:
+### 🃏 Segunda mano · Registros en archivos
+
+**♣️ Ejercicio 4 · Registro de estudiantes y calificaciones.** Solicita los datos de 3 estudiantes y guarda cada uno en dos líneas. Si la calificación no es válida, la vuelve a pedir.
 
 ```text
-No se pudo eliminar el archivo. Verifique que exista.
+Estudiante: Ana Torres
+Calificacion: 9.5
+Estudiante: Luis Mena
+Calificacion: 7.25
+Estudiante: Sofia Vega
+Calificacion: 10.0
+```
+
+**♠️ Ejercicio 5 · Registro de productos con modo append.** Calcula el valor total (precio × cantidad) y agrega cada producto a `productos.txt` sin borrar los anteriores.
+
+```text
+Nombre del producto: Cuaderno
+Precio: 2.50
+Cantidad disponible: 10
+Valor total: $25.00
+```
+
+**♥️ Ejercicio 6 · Sistema de registro de ventas.** Registra ventas hasta que se escribe `fin`, aplica un 10% de descuento desde $100 y guarda el total acumulado en `ventas.txt`.
+
+```text
+Nombre del producto (fin para terminar): Mochila
+Precio: 25
+Cantidad vendida: 4
+Subtotal: $100.00
+Descuento: $10.00
+Total a pagar: $90.00
+```
+
+### 🃏 Tercera mano · Rutas, modos y borrado seguro
+
+**♦️ Ejercicio 7 · Exploración y gestión de metadatos con File.** Comprueba con `exists()` si `datos/prueba.txt` está disponible, lo crea si hace falta y muestra su nombre y su ruta.
+
+```text
+Archivo creado correctamente.
+Nombre: prueba.txt
+Ruta: datos/prueba.txt
+```
+
+**♣️ Ejercicio 8 · Escritura estructurada por líneas con BufferedWriter.** Crea `materias.txt` con cinco asignaturas, una por línea.
+
+```text
+Algoritmos
+Sistemas Operativos
+Base de Datos
+Redes de Computadoras
+Estructura de Datos
+```
+
+**♠️ Ejercicio 9 · Control del modo de apertura.** Agrega dos asignaturas a `materias.txt`, que conserva las cinco originales.
+
+```text
+Algoritmos
+Sistemas Operativos
+Base de Datos
+Redes de Computadoras
+Estructura de Datos
+Desarrollo Web
+Ciberseguridad
+```
+
+**♥️ Ejercicio 10 · Ciclo de vida completo y borrado seguro.** Crea `datos/temporal.txt` y solo lo elimina si la variable `confirmarBorrado` es verdadera.
+
+```text
+Archivo creado: datos/temporal.txt
+Resultado de delete(): true
 ```
 
 ---
@@ -153,22 +212,38 @@ No se pudo eliminar el archivo. Verifique que exista.
 ## 🗂️ La baraja · Estructura del repositorio
 
 ```text
-Guia-APE-5/
+T2.4Fase1APE5.-Creaci-n-Lectura-y-Escritura-de-Ficheros/
 ┣ 📂 Ejercicio1/
 ┃ ┣ 📜 Ejercicio1.java
-┃ ┣ 📜 Informe_Ejercicio1.docx
 ┃ ┗ 📜 Informe_Ejercicio1.pdf
 ┣ 📂 Ejercicio2/
 ┃ ┣ 📜 Ejercicio2.java
-┃ ┣ 📜 Informe_Ejercicio2.docx
 ┃ ┗ 📜 Informe_Ejercicio2.pdf
 ┣ 📂 Ejercicio3/
 ┃ ┣ 📜 Ejercicio3.java
-┃ ┣ 📜 Informe_Ejercicio3.docx
 ┃ ┗ 📜 Informe_Ejercicio3.pdf
-┣ 📜 Informe_General_APE5.docx
-┣ 📜 Informe_General_Ejercicios.docx
-┣ 📜 Informe_General_Ejercicios.pdf
+┣ 📂 Ejercicio4/
+┃ ┣ 📜 Ejercicio4RegistroEstudiantes.java
+┃ ┗ 📜 Informe_Ejercicio4.pdf
+┣ 📂 Ejercicio5/
+┃ ┣ 📜 Ejercicio5RegistroProductos.java
+┃ ┗ 📜 Informe_Ejercicio5.pdf
+┣ 📂 Ejercicio6/
+┃ ┣ 📜 Ejercicio6RegistroVentas.java
+┃ ┗ 📜 Informe_Ejercicio6.pdf
+┣ 📂 Ejercicio7/
+┃ ┣ 📜 Ejercicio7MetadatosFile.java
+┃ ┗ 📜 Informe_Ejercicio7.pdf
+┣ 📂 Ejercicio8/
+┃ ┣ 📜 Ejercicio8EscrituraMaterias.java
+┃ ┗ 📜 Informe_Ejercicio8.pdf
+┣ 📂 Ejercicio9/
+┃ ┣ 📜 Ejercicio9ModoAppend.java
+┃ ┗ 📜 Informe_Ejercicio9.pdf
+┣ 📂 Ejercicio10/
+┃ ┣ 📜 Ejercicio10CicloVida.java
+┃ ┗ 📜 Informe_Ejercicio10.pdf
+┣ 📜 Informe_General_APE5_Ejercicios_1_al_10.pdf
 ┗ 📜 README.md
 ```
 
@@ -178,16 +253,19 @@ Guia-APE-5/
 
 ## ▶️ Cómo jugar · Compilar y ejecutar
 
-Cada ejercicio se ejecuta desde su propia carpeta. Por ejemplo, para el Ejercicio 1:
+Cada ejercicio se ejecuta desde su propia carpeta. Por ejemplo, para el Ejercicio 7:
 
 ```bash
-cd Ejercicio1
-javac Ejercicio1.java
-java Ejercicio1
+cd Ejercicio7
+javac Ejercicio7MetadatosFile.java
+java Ejercicio7MetadatosFile
 ```
 
 > [!IMPORTANT]
-> Antes de los ejercicios 2 y 3, crea `estudiantes.txt` en la carpeta desde donde vas a ejecutarlos. Deja el Ejercicio 3 para el final, porque elimina ese archivo.
+> Algunas cartas dependen de la anterior:
+> - **Ejercicio 2:** crea antes `estudiantes.txt` en la carpeta desde donde lo vas a ejecutar.
+> - **Ejercicio 3:** ejecútalo donde esté el `estudiantes.txt` que quieres eliminar.
+> - **Ejercicio 9:** ejecútalo una sola vez, después del Ejercicio 8 y con el mismo `materias.txt`.
 
 ---
 
