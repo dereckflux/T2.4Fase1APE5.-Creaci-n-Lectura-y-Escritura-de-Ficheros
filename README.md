@@ -213,37 +213,37 @@ Resultado de delete(): true
 
 ```text
 T2.4Fase1APE5.-Creaci-n-Lectura-y-Escritura-de-Ficheros/
-┣ 📂 Ejercicio1/
-┃ ┣ 📜 Ejercicio1.java
+┣ 📂 Ejercicio 1/
+┃ ┣ 📜 Ejercicio1CrearFichero.java
 ┃ ┗ 📜 Informe_Ejercicio1.pdf
-┣ 📂 Ejercicio2/
-┃ ┣ 📜 Ejercicio2.java
+┣ 📂 Ejercicio 2/
+┃ ┣ 📜 Ejercicio2EscribirFichero.java
 ┃ ┗ 📜 Informe_Ejercicio2.pdf
-┣ 📂 Ejercicio3/
-┃ ┣ 📜 Ejercicio3.java
+┣ 📂 Ejercicio 3/
+┃ ┣ 📜 Ejercicio3EliminarFichero.java
 ┃ ┗ 📜 Informe_Ejercicio3.pdf
-┣ 📂 Ejercicio4/
+┣ 📂 Ejercicio 4/
 ┃ ┣ 📜 Ejercicio4RegistroEstudiantes.java
 ┃ ┗ 📜 Informe_Ejercicio4.pdf
-┣ 📂 Ejercicio5/
+┣ 📂 Ejercicio 5/
 ┃ ┣ 📜 Ejercicio5RegistroProductos.java
 ┃ ┗ 📜 Informe_Ejercicio5.pdf
-┣ 📂 Ejercicio6/
+┣ 📂 Ejercicio 6/
 ┃ ┣ 📜 Ejercicio6RegistroVentas.java
 ┃ ┗ 📜 Informe_Ejercicio6.pdf
-┣ 📂 Ejercicio7/
+┣ 📂 Ejercicio 7/
 ┃ ┣ 📜 Ejercicio7MetadatosFile.java
 ┃ ┗ 📜 Informe_Ejercicio7.pdf
-┣ 📂 Ejercicio8/
+┣ 📂 Ejercicio 8/
 ┃ ┣ 📜 Ejercicio8EscrituraMaterias.java
 ┃ ┗ 📜 Informe_Ejercicio8.pdf
-┣ 📂 Ejercicio9/
+┣ 📂 Ejercicio 9/
 ┃ ┣ 📜 Ejercicio9ModoAppend.java
 ┃ ┗ 📜 Informe_Ejercicio9.pdf
-┣ 📂 Ejercicio10/
+┣ 📂 Ejercicio 10/
 ┃ ┣ 📜 Ejercicio10CicloVida.java
 ┃ ┗ 📜 Informe_Ejercicio10.pdf
-┣ 📜 Informe_General_APE5_Ejercicios_1_al_10.pdf
+┣ 📜 Informe General - Avance Guia APE 5.pdf
 ┗ 📜 README.md
 ```
 
@@ -256,7 +256,7 @@ T2.4Fase1APE5.-Creaci-n-Lectura-y-Escritura-de-Ficheros/
 Cada ejercicio se ejecuta desde su propia carpeta. Por ejemplo, para el Ejercicio 7:
 
 ```bash
-cd Ejercicio7
+cd "Ejercicio 7"
 javac Ejercicio7MetadatosFile.java
 java Ejercicio7MetadatosFile
 ```
